@@ -1,5 +1,7 @@
 {
   "scripts": {
-    "start": "node scripts/build-package.js && npm install"
+    "start": "npm run -s git:index && npm run -s build:package && npm install",
+    "git:index": "git update-index --assume-unchanged package.json",
+    "build:package": "node scripts/build-package.js"
   }
 }
