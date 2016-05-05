@@ -42,6 +42,12 @@ const dependencies = {
 }
 
 const devDependencies = {
+
+  // lint ----------------------------------------------------------------------
+
+  'eslint': '2.9.0',
+  'eslint-config-kirei-react': '0.2.4',
+
 }
 
 module.exports = {
