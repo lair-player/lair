@@ -11,11 +11,11 @@ const license = 'MIT'
 
 const homepage = 'https://github.com/lair-player/lair#readme'
 const bugs = {
-  url: 'https://github.com/lair-player/lair/issues'
+  url: 'https://github.com/lair-player/lair/issues',
 }
 const repository = {
   type: 'git',
-  url: 'git+https://github.com/lair-player/lair.git'
+  url: 'git+https://github.com/lair-player/lair.git',
 }
 
 // scripts ---------------------------------------------------------------------
@@ -50,6 +50,8 @@ const devDependencies = {
 
 }
 
+// combine and export ----------------------------------------------------------
+
 module.exports = {
   name,
   version,
@@ -61,5 +63,5 @@ module.exports = {
   homepage,
   scripts,
   dependencies,
-  devDependencies
+  devDependencies,
 }

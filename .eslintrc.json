@@ -1,0 +1,6 @@
+{
+  "extends": "kirei-react",
+  "env": {
+    "node": true
+  }
+}
