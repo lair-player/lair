@@ -1,1 +1,18 @@
+- electron boilerplate
+  - sindresorhus/electron-boilerplate
+  - szwacz/electron-boilerplate
+  - chentsulin/electron-react-boilerplate
+  - vulpino/jolteon
+- plugins
+  - parro-it/electron-localshortcut
+  - gabrielbull/react-desktop
+  - sindresorhus/electron-debug
+  - electron-userland/electron-builder
+  - electron-userland/electron-packager
+  - sindresorhus/fix-path
+  - GitbookIO/nuts
+  - sindresorhus/electron-dl
+  - mawie81/electron-window-state
+  - kapetan/electron-drag
+
 - tmi.js for chat
